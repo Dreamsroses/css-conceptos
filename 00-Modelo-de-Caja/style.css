@@ -1,0 +1,25 @@
+body, html *{
+    border: 2px dashed darkred;
+}
+
+
+.margin{
+    /* margin: 50px; */
+    height: 100px;
+    background-color: goldenrod ; 
+}
+
+.padd{
+    padding: 20px;
+    background-color: aqua;
+    height: 40px;
+    position: relative;
+    top: 20px;
+}
+
+/* 
+.margin-top{
+    margin-top: 100px;
+        background-color: cadetblue;
+        height: 50px;
+} */

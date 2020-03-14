@@ -1,0 +1,32 @@
+.daddy-grid{
+    display: grid;
+    grid-template-columns: 33%  33%  33%; /* Porcentaje columnas
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px; /* Separacion entre cada grid */
+    text-align: center;
+    color: white;
+}
+
+/* 
+    .grid-item-1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    } */
+
+.grid-item{
+    grid-column: auto;
+    padding: 40px;
+    font-size: 30px;
+}
+
+
+.colors{
+    background-color: peru;
+}
+
+.img1{
+    width: 100%;
+    height: auto;
+}
